@@ -1,8 +1,5 @@
 from selenium import webdriver
 import os
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait as wait
 from bs4 import BeautifulSoup
 import pandas as pd
 print(os.getcwd())
@@ -43,7 +40,7 @@ for z in year:
                                 hd2 = driver.find_element_by_xpath(l1 + str(k) + l2 + alpha[0] + l3 + alpha[1] + l4).text
                                 hd3 = driver.find_element_by_xpath(l1 + str(k) + l2 + alpha[1] + l3 + alpha[0] + l4).text
                                 hd4 = driver.find_element_by_xpath(l1 + str(k) + l2 + alpha[1] + l3 + alpha[1] + l4).text
-                                Left.append(hd1)
+                                Left.append(hd1)                                                                             ##승패만 크롤링
                                 Right.append(hd3)
                                 LScore.append(hd2)
                                 RScore.append(hd4)
