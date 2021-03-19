@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ktor-lol:test" external.linked.project.path="$MODULE_DIR$/../../임혁/ktor-lol" external.root.project.path="$MODULE_DIR$/../../임혁/ktor-lol" external.system.id="GRADLE" external.system.module.group="org.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../임혁/ktor-lol/build/classes/kotlin/test" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-gson/1.5.2/7d9212d2237be6bc0bf15d5912b1d81f6153ae8d/ktor-client-gson-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-jackson/1.5.2/6cb1bbc0695494eaac84940c4c26f5d6da53e03/ktor-client-jackson-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-cio-jvm/1.5.2/b767c08e7a9c2236a82c38836fe296ccb951bd73/ktor-client-cio-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json-jvm/1.5.2/7104bb07c8ed5ceb529fff558e6272a82eac28b5/ktor-client-json-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/1.5.2/e05ebd1bd4e839b7428eaf734295597e56d24bb5/ktor-client-core-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.10.2/939796de1ff084e55fc7bbfc9d34cb0b8ac97fb8/jackson-module-kotlin-2.10.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.61/2e07c9a84c9e118efb70eede7e579fd663932122/kotlin-reflect-1.3.61.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.5.2/765adc8967bc8082b3d3ffb3e551df82045569ec/ktor-http-cio-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.5.2/4369b93f10dfc7a5f25e9553c3b7a939672ef27e/ktor-http-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network-tls-jvm/1.5.2/9ddb2fbecf6f163d397a0f84bfbbcaa8dcbcc68f/ktor-network-tls-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network-jvm/1.5.2/2dbe903827cefa66c8d4e798733e332786eb2ac/ktor-network-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.5.2/7c27dfe83c6a5b60ae9dc6d932aa28e0aeefd109/ktor-utils-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.5.2/e82d3eb4104bde6be7c0e2a20cbece4f2bf32bad/ktor-io-jvm-1.5.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.4.2-native-mt/e9cfc66b4db41c778afa95680baa3d3951ea6c45/kotlinx-coroutines-core-jvm-1.4.2-native-mt.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.30/cd81ed90fd79e43f587bd384c2bc6d1aed0bfe31/kotlin-stdlib-jdk7-1.4.30.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.31/a58e0fb9812a6a93ca24b5da75e4b5a0cb89c957/kotlin-stdlib-1.4.31.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.31/6dd50665802f54ba9bc3f70ecb20227d1bc81323/kotlin-stdlib-common-1.4.31.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.6/9180733b7df8542621dc12e21e87557e8c99b8cb/gson-2.8.6.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.2/528de95f198afafbcfb0c09d2e43b6e0ea663ec/jackson-databind-2.10.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.10.2/3a13b6105946541b8d4181a0506355b5fae63260/jackson-annotations-2.10.2.jar;C:/Users/csjav/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.2/73d4322a6bda684f676a2b5fe918361c4e5c7cca/jackson-core-2.10.2.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="ktor-lol" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../임혁/ktor-lol/build/classes/java/main" />
+              <option value="$MODULE_DIR$/../../임혁/ktor-lol/build/classes/kotlin/main" />
+              <option value="$MODULE_DIR$/../../임혁/ktor-lol/build/libs/ktor-lol-1.0-SNAPSHOT.jar" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.4.31/183616b52cfb8ddaa8a2a15bf926e87dfcddcde3/kotlin-script-runtime-1.4.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.4.31/6c072554c2d163012478a93278b208c7228ad9a4/kotlin-scripting-common-1.4.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.4.31/90f94e43428b14e99123eea93411d2b8da9aa72c/kotlin-scripting-jvm-1.4.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.31/6dd50665802f54ba9bc3f70ecb20227d1bc81323/kotlin-stdlib-common-1.4.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.31/a58e0fb9812a6a93ca24b5da75e4b5a0cb89c957/kotlin-stdlib-1.4.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.8/f62be6d4cbf27781c2969867b4ed952f38378492/kotlinx-coroutines-core-1.3.8.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../임혁/ktor-lol/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../임혁/ktor-lol/src/test" />
+    <orderEntry type="jdk" jdkName="15" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ktor-lol.main" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-gson:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-jackson:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-cio-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-json-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.61" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.10.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-tls-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.2-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.30" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:1.5.2" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="ktor-lol.main" />
+</module>

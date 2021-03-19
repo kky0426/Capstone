@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Capstone.iml" filepath="$PROJECT_DIR$/.idea/Capstone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ktor-lol.iml" filepath="$PROJECT_DIR$/.idea/modules/ktor-lol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ktor-lol.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ktor-lol.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ktor-lol.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ktor-lol.test.iml" />
     </modules>
   </component>
 </project>
