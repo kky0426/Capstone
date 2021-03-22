@@ -3,7 +3,7 @@ data class Summoner(
     val accountId: String,
     val puuid: String,
     val name: String,
-    val profileIconId: Long,
+    val profileIconId: Int,
     val revisionDate: Long,
-    val summonerLevel: Long
+    val summonerLevel: Int
 )
