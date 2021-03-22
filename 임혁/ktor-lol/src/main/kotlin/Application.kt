@@ -9,7 +9,7 @@ import io.ktor.client.request.*
 // RATE LIMITS
 // 20 requests every 1 seconds(s)
 // 100 requests every 2 minutes(s)
-const val API_KEY = "RGAPI-0654619d-d3d3-44ec-bdd3-83c26576cb10"
+const val API_KEY = "넣어주세요"
 const val URL = "https://kr.api.riotgames.com"
 
 suspend fun main() {
