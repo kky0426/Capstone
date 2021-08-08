@@ -1,7 +1,11 @@
 package com.example.capstona_a;
 
+import android.app.Application;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
 
 public class CMatch {
     /*
@@ -39,7 +43,52 @@ public class CMatch {
     @Expose
     private String lane;
     private String imgSrc;
+    private List<CTeam> teams = null;
+    private boolean datapresence;
 
+    public List<CTeam> getTeams() {
+        return teams;
+    }
+
+    public void setTeams(List<CTeam> teams) {
+        this.teams = teams;
+    }
+
+    public boolean isDatapresence() {
+        return datapresence;
+    }
+
+    public void setDatapresence(boolean datapresence) {
+        this.datapresence = datapresence;
+    }
+
+    public Long getGameDuration() {
+        return gameDuration;
+    }
+
+    public void setGameDuration(Long gameDuration) {
+        this.gameDuration = gameDuration;
+    }
+
+    public List<CParticipant> getParticipants() {
+        return participants;
+    }
+
+    public void setParticipants(List<CParticipant> participants) {
+        this.participants = participants;
+    }
+
+    public List<CParticipantIdentity> getParticipantIdentities() {
+        return participantIdentities;
+    }
+
+    public void setParticipantIdentities(List<CParticipantIdentity> participantIdentities) {
+        this.participantIdentities = participantIdentities;
+    }
+
+    private Long gameDuration;
+    private List<CParticipant> participants = null;
+    private List<CParticipantIdentity> participantIdentities = null;
     public String getChampName() {
         return ChampName;
     }
