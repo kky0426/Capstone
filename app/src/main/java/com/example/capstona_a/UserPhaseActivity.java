@@ -60,10 +60,10 @@ public class UserPhaseActivity extends AppCompatActivity {
                 {
                     arrayList.add(k++,i);
                 }
-                String tier=ChangeTiertoKoreanandimg(arrayList.get(0).getTier(),img_Tier);
-                textView_nameTier.setText(tier+" "+arrayList.get(0).getRank());
-                textView_nameScore.setText("점수: "+arrayList.get(0).getLeaguePoints());
-                textView_Recordgame.setText("승: "+arrayList.get(0).getWins()+"  패: "+arrayList.get(0).getLosses());
+                String tier=ChangeTiertoKoreanandimg(arrayList.get(1).getTier(),img_Tier);
+                textView_nameTier.setText(tier+" "+arrayList.get(1).getRank());
+                textView_nameScore.setText("점수: "+arrayList.get(1).getLeaguePoints());
+                textView_Recordgame.setText("승: "+arrayList.get(1).getWins()+"  패: "+arrayList.get(0).getLosses());
 
 
 
