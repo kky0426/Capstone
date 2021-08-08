@@ -3,15 +3,13 @@ package com.example.capstona_a;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
-public class MatchData {
+public class CMatchData {
 
     @SerializedName("matches")
     @Expose
-    private List<Match> matches = null;
+    private List<CMatch> CMatches = null;
     @SerializedName("startIndex")
     @Expose
     private int startIndex;
@@ -22,12 +20,12 @@ public class MatchData {
     @Expose
     private int totalGames;
 
-    public List<Match> getMatches() {
-        return matches;
+    public List<CMatch> getMatches() {
+        return CMatches;
     }
 
-    public void setMatches(List<Match> matches) {
-        this.matches = matches;
+    public void setMatches(List<CMatch> CMatches) {
+        this.CMatches = CMatches;
     }
 
     public Integer getStartIndex() {

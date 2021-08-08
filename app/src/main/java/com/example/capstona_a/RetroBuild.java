@@ -3,14 +3,14 @@ package com.example.capstona_a;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RetroAccid {
-    private static RetroAccid Instance = new RetroAccid();
+public class RetroBuild {
+    private static RetroBuild Instance = new RetroBuild();
 
-    public static RetroAccid getInstance() {
+    public static RetroBuild getInstance() {
         return Instance;
     }
 
-    private RetroAccid() {
+    private RetroBuild() {
 
     }
 
@@ -18,8 +18,8 @@ public class RetroAccid {
             .baseUrl("https://kr.api.riotgames.com/lol/")
             .addConverterFactory(GsonConverterFactory.create())
             .build();
-    GetAccidService service = retrofit.create(GetAccidService.class);
-    public GetAccidService getService(){
+    GetRetroService service = retrofit.create(GetRetroService.class);
+    public GetRetroService getService(){
         return service;
     }
 

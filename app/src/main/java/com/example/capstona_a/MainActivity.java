@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button btn=(Button)findViewById(R.id.btn_search);
         EditText editText=(EditText)findViewById(R.id.search_textbar);
-        String api_key="RGAPI-20a0010d-63d7-4d65-916d-ea00d5178511";
+        String api_key="RGAPI-cd98fdf2-f3c7-4c0c-bca8-65bba550f0ae";
         Intent intent = new Intent(MainActivity.this, UserPhaseActivity.class);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,14 +31,14 @@ public class MainActivity extends AppCompatActivity {
                 Handler handler = new Handler();
                 CUserDTO CUserDTO1 = new CUserDTO();
 
-                Call<CUserDTO>res= RetroAccid.getInstance().getService().getAcc_id(name,api_key);
+                Call<CUserDTO>res= RetroBuild.getInstance().getService().getAcc_id(name,api_key);
                 res.enqueue(new Callback<CUserDTO>() {
                     @Override
                     public void onResponse(Call<CUserDTO> call, Response<CUserDTO> response) {
                         Log.d("Retrofit success",response.toString());
                         CUserDTO CUserDTO1 = response.body();
                         intent.putExtra("user", CUserDTO1);
-                        //Toast myT= Toast.makeText(getApplicationContext(),CUser1.getId(),Toast.LENGTH_LONG);
+                        //Toast myT= Toast.makeText(getApplicationContext(),CUserDTO1.getId(),Toast.LENGTH_LONG);
                         startActivity(intent);
 
 

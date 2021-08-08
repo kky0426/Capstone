@@ -31,15 +31,15 @@ public class IngameActivity extends AppCompatActivity {
         ImageView img=(ImageView)findViewById(R.id.img_ingame);
         textview3.setText(User.getName());
         ListView listView = (ListView)findViewById(R.id.listview_ingame);
-        String api_key="RGAPI-20a0010d-63d7-4d65-916d-ea00d5178511";
+        String api_key="RGAPI-cd98fdf2-f3c7-4c0c-bca8-65bba550f0ae";
         String imgSrc = "https://ddragon.leagueoflegends.com/cdn/11.15.1/img/profileicon/"+String.valueOf(User.getProfileIconId())+".png";
         Glide.with(this).load(imgSrc).into(img);
 
         /*
-        MatchlistDto list = new MatchlistDto();
+        CMatchlistDto list = new CMatchlistDto();
         list = response.body();
 
-        MatchData matchData = list.getMatchData();*/
+        CMatchData matchData = list.getMatchData();*/
 
 
 

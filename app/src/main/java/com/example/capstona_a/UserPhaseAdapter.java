@@ -15,15 +15,15 @@ import java.util.ArrayList;
 public class UserPhaseAdapter extends BaseAdapter{
     Context myContext = null;
     LayoutInflater myInflater = null;
-    ArrayList<Match> match;
-    public UserPhaseAdapter(Context context, ArrayList<Match> data){
+    ArrayList<CMatch> CMatches;
+    public UserPhaseAdapter(Context context, ArrayList<CMatch> data){
         myContext = context;
-        match = data;
+        CMatches = data;
         myInflater = LayoutInflater.from(myContext);
     }
     @Override
     public int getCount(){
-        return match.size();
+        return CMatches.size();
     }
     @Override
     public long getItemId(int position)
@@ -31,9 +31,9 @@ public class UserPhaseAdapter extends BaseAdapter{
         return position;
     }
     @Override
-    public Match getItem(int position)
+    public CMatch getItem(int position)
     {
-        return match.get(position);
+        return CMatches.get(position);
     }
     @Override
     public View getView(int position, View converView, ViewGroup parent)
@@ -43,9 +43,9 @@ public class UserPhaseAdapter extends BaseAdapter{
         TextView champname=(TextView)view.findViewById(R.id.record_champ);
         TextView lane=(TextView)view.findViewById(R.id.record_lane);
 
-        Glide.with(imageView).load(match.get(position).getImgSrc()).into(imageView);
-        champname.setText(match.get(position).getChampion());
-        lane.setText(match.get(position).getLane());
+        Glide.with(imageView).load(CMatches.get(position).getImgSrc()).into(imageView);
+        champname.setText(CMatches.get(position).getChampName());
+        lane.setText(CMatches.get(position).getLane());
 
         return view;
 

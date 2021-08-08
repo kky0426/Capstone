@@ -3,10 +3,7 @@ package com.example.capstona_a;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class Match {
+public class CMatch {
     /*
     @SerializedName("platformId")
     @Expose
@@ -43,6 +40,16 @@ public class Match {
     private String lane;
     private String imgSrc;
 
+    public String getChampName() {
+        return ChampName;
+    }
+
+    public void setChampName(String champName) {
+        ChampName = champName;
+    }
+
+    private String ChampName;
+
     public String getImgSrc() {
         return imgSrc;
     }
@@ -60,7 +67,7 @@ public class Match {
             this.platformId = platformId;
         }
 
-        public Match withPlatformId(String platformId) {
+        public CMatch withPlatformId(String platformId) {
             this.platformId = platformId;
             return this;
         }
@@ -73,7 +80,7 @@ public class Match {
         this.gameId = gameId;
     }
 
-    public Match withGameId(Long gameId) {
+    public CMatch withGameId(Long gameId) {
         this.gameId = gameId;
         return this;
     }
@@ -86,7 +93,7 @@ public class Match {
         this.champion = champion;
     }
 
-    public Match withChampion(Integer champion) {
+    public CMatch withChampion(Integer champion) {
         this.champion = champion;
         return this;
     }
@@ -99,7 +106,7 @@ public class Match {
         this.queue = queue;
     }
 
-    public Match withQueue(Integer queue) {
+    public CMatch withQueue(Integer queue) {
         this.queue = queue;
         return this;
     }
@@ -112,7 +119,7 @@ public class Match {
         this.season = season;
     }
 
-    public Match withSeason(Integer season) {
+    public CMatch withSeason(Integer season) {
         this.season = season;
         return this;
     }
@@ -126,7 +133,7 @@ public class Match {
         this.timestamp = timestamp;
     }
 
-    public Match withTimestamp(Long timestamp) {
+    public CMatch withTimestamp(Long timestamp) {
         this.timestamp = timestamp;
         return this;
     }
@@ -141,7 +148,7 @@ public class Match {
         this.role = role;
     }
 
-    public Match withRole(String role) {
+    public CMatch withRole(String role) {
         this.role = role;
         return this;
     }
@@ -154,14 +161,14 @@ public class Match {
         this.lane = lane;
     }
 
-    public Match withLane(String lane) {
+    public CMatch withLane(String lane) {
         this.lane = lane;
         return this;
     }
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(Match.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
+        sb.append(CMatch.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
         sb.append("gameId");
         sb.append('=');
         sb.append(((this.gameId == null)?"<null>":this.gameId));
