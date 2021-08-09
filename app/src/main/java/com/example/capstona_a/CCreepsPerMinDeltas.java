@@ -13,7 +13,7 @@ public class CCreepsPerMinDeltas implements Serializable {
     @Expose
     private Double _010;
     private final static long serialVersionUID = 8728739272662527078L;
-
+    //test
     public Double get1020() {
         return _1020;
     }
